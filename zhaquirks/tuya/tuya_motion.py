@@ -1436,6 +1436,7 @@ base_tuya_motion = (
 # Tuya PIR 24Ghz human presence sensor, ZG-204ZM
 (
     TuyaQuirkBuilder("_TZE200_2aaelwxk", "TS0601")
+    .applies_to("_TZE200_crq3r3la", "CK-BL702-MWS-01(7016)")
     .applies_to("_TZE200_kb5noeto", "TS0601")
     .applies_to("HOBEIAN", "ZG-204ZM")
     .tuya_dp(
